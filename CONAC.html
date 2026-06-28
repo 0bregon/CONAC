@@ -3,24 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONAC</title>
+    <title>Sobre CONAC</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="js/menu.js" defer></script>
 </head>
 <body>
 
-    <header>
-        <h1>CONAC</h1>
-        <p>Confederación Nacional de Asentamientos Campesinos</p>
+    <header class="header">
+        <!-- Barra de navegación (se vuelve sticky al hacer scroll) -->
+        <nav class="navbar" aria-label="Menú principal">
+            <h1 class="logo-container">
+                <a href="index.html">
+                    <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
+                </a>
+            </h1>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="conac.html">CONAC</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
+            <button class="menu-toggle" 
+                    aria-label="Abrir menú" 
+                    aria-expanded="false" 
+                    aria-controls="menu-list">
+                <span class="icon-open">☰</span>
+                <span class="icon-close">✕</span>
+                <span class="menu-text">Menú</span>
+            </button>
+
+            <ul class="menu-list" id="menu-list" role="menu">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="CONAC.html">Sobre CONAC</a></li>
+                <li><a href="asentamientos.html">Organización Territorial</a></li>
+                <li><a href="luchas.html">Luchas y Campañas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
+
+        <!-- Overlay oscuro para móvil -->
+        <div class="menu-overlay" aria-hidden="true"></div>
+
+        <!-- Hero -->
+        <div class="hero">
+            <h1>CONAC</h1>
+            <p>Confederación Nacional de Asentamientos Campesinos(AQUÍ VA EL SLOGAN).</p>
+            <a href="conac.html">Conocer más</a>
+        </div>
     </header>
 
     <main>
@@ -48,10 +74,7 @@
             <h2>Misión</h2>
 
             <p>
-                Representar y fortalecer a los asentamientos campesinos mediante
-                la organización, capacitación y gestión de proyectos que
-                contribuyan al desarrollo económico, social y productivo de las
-                comunidades rurales de Panamá.
+                AQUI VA LA MISION
             </p>
         </section>
 
@@ -59,10 +82,7 @@
             <h2>Visión</h2>
 
             <p>
-                Ser una organización líder en el fortalecimiento del movimiento
-                campesino panameño, impulsando el desarrollo sostenible, la
-                innovación y la participación activa de las comunidades rurales
-                en el progreso del país.
+                AQUI VA LA VISION
             </p>
         </section>
 
@@ -70,12 +90,12 @@
             <h2>Objetivos</h2>
 
             <ul>
-                <li>Promover el desarrollo integral de los asentamientos campesinos.</li>
-                <li>Fortalecer la organización y participación comunitaria.</li>
-                <li>Apoyar proyectos agrícolas y pecuarios sostenibles.</li>
-                <li>Gestionar programas de capacitación y asistencia técnica.</li>
-                <li>Impulsar el uso de tecnologías para mejorar la gestión y producción.</li>
-                <li>Representar los intereses de los productores rurales ante instituciones públicas y privadas.</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </section>
 
@@ -83,12 +103,12 @@
             <h2>Principios Institucionales</h2>
 
             <ul>
-                <li>Solidaridad.</li>
-                <li>Participación democrática.</li>
-                <li>Responsabilidad social.</li>
-                <li>Transparencia.</li>
-                <li>Equidad.</li>
-                <li>Compromiso con el desarrollo rural.</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </section>
 
@@ -96,11 +116,7 @@
             <h2>Importancia de la CONAC</h2>
 
             <p>
-                La CONAC desempeña un papel fundamental en la articulación de los
-                asentamientos campesinos del país, facilitando la cooperación
-                entre comunidades y promoviendo acciones que contribuyen al
-                desarrollo agrícola, la seguridad alimentaria y el bienestar de
-                miles de familias rurales.
+                AQUI VA LA IMPORTANCIA DE LA CONAC
             </p>
         </section>
 
