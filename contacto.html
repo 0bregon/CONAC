@@ -1,55 +1,194 @@
-<html lang="es">    
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONAC</title>
+    <title>Contacto | CONAC</title>
+
     <link href="estilos.css" rel="stylesheet">
     <script src="js/menu.js" defer></script>
 </head>
 
 <body>
-    <header class="header">
-        <!-- Barra de navegación (se vuelve sticky al hacer scroll) -->
-        <nav class="navbar" aria-label="Menú principal">
-            <h1 class="logo-container">
-                <a href="index.html">
-                    <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
-                </a>
-            </h1>
 
-            <button class="menu-toggle" 
-                    aria-label="Abrir menú" 
-                    aria-expanded="false" 
-                    aria-controls="menu-list">
-                <span class="icon-open">☰</span>
-                <span class="icon-close">✕</span>
-                <span class="menu-text">Menú</span>
-            </button>
+<header class="header">
 
-            <ul class="menu-list" id="menu-list" role="menu">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="CONAC.html">Sobre CONAC</a></li>
-                <li><a href="asentamientos.html">Organización Territorial</a></li>
-                <li><a href="luchas.html">Luchas y Campañas</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- Barra de navegación -->
+    <nav class="navbar" aria-label="Menú principal">
 
-        <!-- Overlay oscuro para móvil -->
-        <div class="menu-overlay" aria-hidden="true"></div>
+        <h1 class="logo-container">
+            <a href="index.html">
+                <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
+            </a>
+        </h1>
 
-        <!-- Hero -->
-        <div class="hero">
-            <h1>Contacto</h1>
-            <p>Confederación Nacional de Asentamientos Campesinos(AQUÍ VA EL SLOGAN).</p>
+        <button class="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="menu-list">
+
+            <span class="icon-open">☰</span>
+            <span class="icon-close">✕</span>
+            <span class="menu-text">Menú</span>
+
+        </button>
+
+        <ul class="menu-list" id="menu-list">
+
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="CONAC.html">Sobre CONAC</a></li>
+            <li><a href="asentamientos.html">Organización Territorial</a></li>
+            <li><a href="luchas.html">Luchas y Campañas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="menu-overlay"></div>
+
+    <!-- Hero -->
+
+    <div class="hero">
+
+        <h1>Contacto</h1>
+
+        <p>
+            Comuníquese con la Confederación Nacional de Asentamientos Campesinos
+            para obtener información sobre nuestros programas, proyectos y
+            actividades.
+        </p>
+
+    </div>
+
+</header>
+
+<main>
+
+    <!-- Introducción -->
+
+    <section class="introduccion">
+
+        <h2>Estamos para servirle</h2>
+
+        <p>
+            Si desea obtener más información sobre la CONAC, nuestros
+            asentamientos o proyectos, puede comunicarse con nosotros
+            mediante los siguientes canales.
+        </p>
+
+    </section>
+
+    <!-- Información de contacto -->
+
+    <section class="informacion-contacto">
+
+        <h2>Información de Contacto</h2>
+
+        <div class="datos-contacto">
+
+            <div class="dato">
+
+                <h3>📍 Dirección</h3>
+
+                <p>
+                    Dirección de la sede principal.
+                </p>
+
+            </div>
+
+            <div class="dato">
+
+                <h3>📞 Teléfono</h3>
+
+                <p>
+                    (+507) XXXX-XXXX
+                </p>
+
+            </div>
+
+            <div class="dato">
+
+                <h3>✉️ Correo Electrónico</h3>
+
+                <p>
+                    correo@conac.org.pa
+                </p>
+
+            </div>
+
+            <div class="dato">
+
+                <h3>🕒 Horario de Atención</h3>
+
+                <p>
+                    Lunes a viernes<br>
+                    8:00 a.m. - 4:00 p.m.
+                </p>
+
+            </div>
+
         </div>
-    </header>
 
-    <footer>
-        <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
-    </footer>
+    </section>
+
+    <!-- Formulario -->
+
+    <section class="formulario-contacto">
+
+        <h2>Envíenos un Mensaje</h2>
+
+        <form>
+
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+
+        </form>
+
+    </section>
+
+    <!-- Mapa -->
+
+    <section class="ubicacion">
+
+        <h2>Ubicación</h2>
+
+        <p>
+            Aquí puede insertar un mapa de Google Maps con la ubicación
+            de la sede principal de la CONAC.
+        </p>
+
+        <div class="mapa">
+
+            <!-- Pegar aquí el iframe de Google Maps -->
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
+
+</footer>
 
 </body>
 </html>

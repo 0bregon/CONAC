@@ -1,56 +1,132 @@
-<html lang="es">    
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONAC</title>
+    <title>Galería | CONAC</title>
+
     <link href="estilos.css" rel="stylesheet">
     <script src="js/menu.js" defer></script>
 </head>
 
 <body>
-    <header class="header">
-        <!-- Barra de navegación (se vuelve sticky al hacer scroll) -->
-        <nav class="navbar" aria-label="Menú principal">
-            <h1 class="logo-container">
-                <a href="index.html">
-                    <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
-                </a>
-            </h1>
 
-            <button class="menu-toggle" 
-                    aria-label="Abrir menú" 
-                    aria-expanded="false" 
-                    aria-controls="menu-list">
-                <span class="icon-open">☰</span>
-                <span class="icon-close">✕</span>
-                <span class="menu-text">Menú</span>
-            </button>
+<header class="header">
 
-            <ul class="menu-list" id="menu-list" role="menu">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="CONAC.html">Sobre CONAC</a></li>
-                <li><a href="asentamientos.html">Organización Territorial</a></li>
-                <li><a href="luchas.html">Luchas y Campañas</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- Barra de navegación -->
+    <nav class="navbar" aria-label="Menú principal">
+        <h1 class="logo-container">
+            <a href="index.html">
+                <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
+            </a>
+        </h1>
 
-        <!-- Overlay oscuro para móvil -->
-        <div class="menu-overlay" aria-hidden="true"></div>
+        <button class="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="menu-list">
 
-        <!-- Hero -->
-        <div class="hero">
-            <h1>Galeria</h1>
-            <p>Confederación Nacional de Asentamientos Campesinos(AQUÍ VA EL SLOGAN).</p>
-            <a href="conac.html">Conocer más</a>
+            <span class="icon-open">☰</span>
+            <span class="icon-close">✕</span>
+            <span class="menu-text">Menú</span>
+
+        </button>
+
+        <ul class="menu-list" id="menu-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="CONAC.html">Sobre CONAC</a></li>
+            <li><a href="asentamientos.html">Organización Territorial</a></li>
+            <li><a href="luchas.html">Luchas y Campañas</a></li>
+            <li><a href="galeria.html" class="active">Galería</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="menu-overlay"></div>
+
+    <!-- Hero -->
+
+    <div class="hero">
+        <h1>Galería</h1>
+
+        <p>
+            Conozca a través de imágenes las actividades,
+            proyectos y el trabajo que realiza la
+            Confederación Nacional de Asentamientos Campesinos.
+        </p>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="galeria">
+
+        <h2>Nuestras Actividades</h2>
+
+        <p>
+            Esta galería reúne algunos de los momentos más
+            representativos de los asentamientos campesinos,
+            proyectos productivos, reuniones y actividades
+            desarrolladas por la CONAC.
+        </p>
+
+        <div class="galeria-grid">
+
+            <figure>
+                <img src="imagenes/foto1.jpg" alt="Descripción de la imagen">
+                <figcaption>Actividad comunitaria</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagenes/foto2.jpg" alt="Descripción de la imagen">
+                <figcaption>Proyecto agrícola</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagenes/foto3.jpg" alt="Descripción de la imagen">
+                <figcaption>Reunión de productores</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagenes/foto4.jpg" alt="Descripción de la imagen">
+                <figcaption>Trabajo en campo</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagenes/foto5.jpg" alt="Descripción de la imagen">
+                <figcaption>Capacitación</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagenes/foto6.jpg" alt="Descripción de la imagen">
+                <figcaption>Producción pecuaria</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagenes/foto7.jpg" alt="Descripción de la imagen">
+                <figcaption>Asentamiento campesino</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagenes/foto8.jpg" alt="Descripción de la imagen">
+                <figcaption>Desarrollo rural</figcaption>
+            </figure>
+
         </div>
-    </header>
 
-    <footer>
-        <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
-    </footer>
+    </section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
+
+</footer>
 
 </body>
 </html>

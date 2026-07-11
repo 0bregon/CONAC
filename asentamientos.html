@@ -3,228 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asentamientos Campesinos</title>
+    <title>Organización Territorial | CONAC</title>
+
     <link rel="stylesheet" href="estilos.css">
     <script src="js/menu.js" defer></script>
 </head>
+
 <body>
 
-    <header class="header">
-        <!-- Barra de navegación (se vuelve sticky al hacer scroll) -->
-        <nav class="navbar" aria-label="Menú principal">
-            <h1 class="logo-container">
-                <a href="index.html">
-                    <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
-                </a>
-            </h1>
+<header class="header">
 
-            <button class="menu-toggle" 
-                    aria-label="Abrir menú" 
-                    aria-expanded="false" 
-                    aria-controls="menu-list">
-                <span class="icon-open">☰</span>
-                <span class="icon-close">✕</span>
-                <span class="menu-text">Menú</span>
-            </button>
+    <!-- Barra de navegación -->
+    <nav class="navbar" aria-label="Menú principal">
 
-            <ul class="menu-list" id="menu-list" role="menu">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="CONAC.html">Sobre CONAC</a></li>
-                <li><a href="asentamientos.html">Organización Territorial</a></li>
-                <li><a href="luchas.html">Luchas y Campañas</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <h1 class="logo-container">
+            <a href="index.html">
+                <img src="imagenes/CONAC_LOGO.svg" alt="Logo CONAC" class="logo">
+            </a>
+        </h1>
 
-        <!-- Overlay oscuro para móvil -->
-        <div class="menu-overlay" aria-hidden="true"></div>
+        <button class="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="menu-list">
 
-        <!-- Hero -->
-        <div class="hero">
-            <h1>Organizacíon</h1>
-            <p>Confederación Nacional de Asentamientos Campesinos(AQUÍ VA EL SLOGAN).</p>
-            <a href="conac.html">Conocer más</a>
-        </div>
-    </header>
-    <main>
+            <span class="icon-open">☰</span>
+            <span class="icon-close">✕</span>
+            <span class="menu-text">Menú</span>
 
-        <nav>
-            <ul>
-                <li><a href="#">Chiriqui</a></li>
-                <li><a href="#">Veraguas</a></li>
-                <li><a href="#">Herrera</a></li>
-                <li><a href="#">Coclé</a></li>
-                <li><a href="#">Colón</a></li>
+        </button>
 
-            </ul>
-        </nav>
+        <ul class="menu-list" id="menu-list">
 
-        <section id="asentamientos">
-            <h2>Asentamientos Campesinos</h2>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="CONAC.html">Sobre CONAC</a></li>
+            <li><a href="asentamientos.html" class="active">Asentamientos</a></li>
+            <li><a href="luchas.html">Luchas y Campañas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
 
-            <p>
-                Los asentamientos campesinos afiliados a la CONAC constituyen
-                comunidades organizadas que trabajan por el desarrollo agrícola,
-                la producción de alimentos y el fortalecimiento del sector rural.
-            </p>
+        </ul>
 
-            <div class="contenedor-asentamientos">
+    </nav>
 
-                <article class="asentamiento">
-                    <h3>Carrizaleños Unidos</h3>
-                    <p>
-                        Comunidad dedicada a la producción agrícola y al
-                        fortalecimiento de la organización campesina.
-                    </p>
+    <div class="menu-overlay"></div>
 
-                    <ul>
-                        <li>Veraguas</li>
-                        <li>Actividad principal: Agricultura</li>
-                        <li>Socios Activos: </li>
-                    </ul>
-                </article>
+    <!-- Hero Actualizado -->
+    <div class="hero">
+        <h1>Organización Territorial</h1>
 
-                <article class="asentamiento">
-                    <h3>Todo por la Patria</h3>
-                    <p>
-                        Descripción 
-                    </p>
-
-                    <ul>
-                        <li>Ubicación: Veraguas</li>
-                        <li>Actividad principal: Agricultura</li>
-                        <li>Socios Activos: </li>
-                    </ul>
-                </article>
-
-                <article class="asentamiento">
-                    <h3>Nombre del Asentamiento</h3>
-                    <p>
-                        Descripción 
-                    </p>
-
-                    <ul>
-                        <li>Ubicación: </li>
-                        <li>Actividad principal: </li>
-                        <li>Socios Activos: </li>
-                    </ul>
-                </article>
-
-                <article class="asentamiento">
-                    <h3>Nombre del Asentamiento</h3>
-                    <p>
-                        Descripción 
-                    </p>
-
-                    <ul>
-                        <li>Ubicación: </li>
-                        <li>Actividad principal: </li>
-                        <li>Socios Activos: </li>
-                    </ul>
-                </article>
-
-                <article class="asentamiento">
-                    <h3>Nombre del Asentamiento</h3>
-                    <p>
-                        Descripción 
-                    </p>
-
-                    <ul>
-                        <li>Ubicación: </li>
-                        <li>Actividad principal: </li>
-                        <li>Socios Activos: </li>
-                    </ul>
-                </article>
-
-                <article class="asentamiento">
-                    <h3>Nombre del Asentamiento</h3>
-                    <p>
-                        Descripción 
-                    </p>
-
-                    <ul>
-                        <li>Ubicación: </li>
-                        <li>Actividad principal: </li>
-                        <li>Socios Activos: </li>
-                    </ul>
-                </article>
-
-                <article class="asentamiento">
-                    <h3>Nombre del Asentamiento</h3>
-                    <p>
-                        Descripción 
-                    </p>
-
-                    <ul>
-                        <li>Ubicación: </li>
-                        <li>Actividad principal: </li>
-                        <li>Socios Activos: </li>
-                    </ul>
-                </article>
-
-                
-                
-
-            </div>
-        </section>
-
-        <section id="historia">
-            <h2>Historia de los Asentamientos</h2>
-
-            <p>
-                Parrafo 1
-            </p>
-
-            <p>
-                Parrafo 2
-            </p>
-        </section>
-
-        <section id="proyectos">
-            <h2>Proyectos Comunitarios</h2>
-
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-
-            <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre">
-
-                <label for="correo">Correo electrónico</label>
-                <input type="email" id="correo" name="correo">
-
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" rows="5"></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-
-    </main>
-
-    <aside>
-        <h3>Información de Interés</h3>
         <p>
-            La CONAC trabaja junto a organizaciones campesinas para promover el
-            desarrollo rural, la producción agrícola y el bienestar de las
-            comunidades del país.
+            La CONAC está integrada por asentamientos campesinos distribuidos
+            en diferentes regiones del país, promoviendo el desarrollo rural,
+            la producción agropecuaria y la organización comunitaria.
         </p>
-    </aside>
+    </div>
 
-    <footer>
-        <p>&copy; 2026 CONAC. Todos los derechos reservados.</p>
-    </footer>
+</header>
+
+<main>
+
+    <!-- Introducción Actualizada -->
+    <section class="introduccion">
+        <h2>Distribución Nacional</h2>
+
+        <p>
+            La Confederación Nacional de Asentamientos Campesinos reúne organizaciones
+            campesinas ubicadas en distintas provincias y regiones de Panamá,
+            fortaleciendo el trabajo conjunto entre productores y comunidades rurales.
+        </p>
+    </section>
+
+    <!-- Organización por Regiones -->
+    <section class="regiones">
+        <h2>Regiones</h2>
+
+        <div class="contenedor-regiones">
+
+            <article>
+                <h3>R-1 Chiriquí</h3>
+                <p>Asentamientos campesinos activos distribuidos en la provincia de Chiriquí.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-2 Veraguas</h3>
+                <p>Una de las regiones con mayor número de asentamientos campesinos.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-3 Herrera</h3>
+                <p>Organizaciones dedicadas principalmente a la producción agropecuaria.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-4 Coclé</h3>
+                <p>Asentamientos organizados para fortalecer el desarrollo rural.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-5 Capira</h3>
+                <p>Comunidades campesinas comprometidas con el desarrollo productivo.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-6 Colón</h3>
+                <p>Asentamientos con actividades agrícolas y pecuarias.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-7 Chepo</h3>
+                <p>Organizaciones rurales dedicadas al fortalecimiento comunitario.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-8 Los Santos</h3>
+                <p>Asentamientos enfocados en la producción agropecuaria.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-9 Bocas del Toro</h3>
+                <p>Comunidades rurales afiliadas a la organización.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-10 Darién</h3>
+                <p>Asentamientos que impulsan el desarrollo sostenible del sector rural.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+            <article>
+                <h3>R-11 Comarca Ngäbe-Buglé</h3>
+                <p>Organizaciones campesinas que forman parte de la estructura territorial.</p>
+                <a href="#">Ver asentamientos</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Estadísticas Actualizadas (MIDA Sept 2025) -->
+    <section class="estadisticas">
+        <h2>CONAC en cifras</h2>
+
+        <div class="stats">
+            <div>
+                <h3>72</h3>
+                <p>Federaciones Activas</p>
+            </div>
+            <div>
+                <h3>1,829</h3>
+                <p>Asentamientos Registrados</p>
+            </div>
+            <div>
+                <h3>351</h3>
+                <p>Juntas Agrarias</p>
+            </div>
+            <div>
+                <h3>2,650</h3>
+                <p>Organizaciones Totales</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
+</footer>
 
 </body>
 </html>

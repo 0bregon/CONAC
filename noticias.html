@@ -1,56 +1,179 @@
-<html lang="es">    
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONAC</title>
+    <title>Noticias | CONAC</title>
+
     <link href="estilos.css" rel="stylesheet">
     <script src="js/menu.js" defer></script>
 </head>
 
 <body>
-    <header class="header">
-        <!-- Barra de navegación (se vuelve sticky al hacer scroll) -->
-        <nav class="navbar" aria-label="Menú principal">
-            <h1 class="logo-container">
-                <a href="index.html">
-                    <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
-                </a>
-            </h1>
 
-            <button class="menu-toggle" 
-                    aria-label="Abrir menú" 
-                    aria-expanded="false" 
-                    aria-controls="menu-list">
-                <span class="icon-open">☰</span>
-                <span class="icon-close">✕</span>
-                <span class="menu-text">Menú</span>
-            </button>
+<header class="header">
 
-            <ul class="menu-list" id="menu-list" role="menu">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="CONAC.html">Sobre CONAC</a></li>
-                <li><a href="asentamientos.html">Organización Territorial</a></li>
-                <li><a href="luchas.html">Luchas y Campañas</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- Barra de navegación -->
+    <nav class="navbar" aria-label="Menú principal">
 
-        <!-- Overlay oscuro para móvil -->
-        <div class="menu-overlay" aria-hidden="true"></div>
+        <h1 class="logo-container">
+            <a href="index.html">
+                <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
+            </a>
+        </h1>
 
-        <!-- Hero -->
-        <div class="hero">
-            <h1>Noticias</h1>
-            <p>Confederación Nacional de Asentamientos Campesinos(AQUÍ VA EL SLOGAN).</p>
-            <a href="conac.html">Conocer más</a>
-        </div>
-    </header>
+        <button class="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="menu-list">
 
-    <footer>
-        <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
-    </footer>
+            <span class="icon-open">☰</span>
+            <span class="icon-close">✕</span>
+            <span class="menu-text">Menú</span>
+
+        </button>
+
+        <ul class="menu-list" id="menu-list">
+
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="CONAC.html">Sobre CONAC</a></li>
+            <li><a href="asentamientos.html">Organización Territorial</a></li>
+            <li><a href="luchas.html">Luchas y Campañas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="noticias.html" class="active">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="menu-overlay"></div>
+
+    <!-- Hero -->
+
+    <div class="hero">
+
+        <h1>Noticias</h1>
+
+        <p>
+            Manténgase informado sobre las actividades, proyectos,
+            reuniones y acontecimientos más relevantes de la
+            Confederación Nacional de Asentamientos Campesinos.
+        </p>
+
+    </div>
+
+</header>
+
+<main>
+
+    <!-- Introducción -->
+
+    <section class="introduccion">
+
+        <h2>Actualidad CONAC</h2>
+
+        <p>
+            En esta sección encontrará las noticias más recientes sobre
+            las acciones, proyectos, capacitaciones y eventos desarrollados
+            por la Confederación Nacional de Asentamientos Campesinos.
+        </p>
+
+    </section>
+
+    <!-- Noticias -->
+
+    <section class="contenedor-noticias">
+
+        <article class="noticia">
+
+            <img src="imagenes/noticia1.jpg" alt="Noticia">
+
+            <div class="contenido-noticia">
+
+                <span class="fecha">15 de enero de 2026</span>
+
+                <h3>Título de la noticia</h3>
+
+                <p>
+                    Escriba aquí un breve resumen de la noticia.
+                </p>
+
+                <a href="#">Leer más</a>
+
+            </div>
+
+        </article>
+
+        <article class="noticia">
+
+            <img src="imagenes/noticia2.jpg" alt="Noticia">
+
+            <div class="contenido-noticia">
+
+                <span class="fecha">10 de enero de 2026</span>
+
+                <h3>Título de la noticia</h3>
+
+                <p>
+                    Escriba aquí un breve resumen de la noticia.
+                </p>
+
+                <a href="#">Leer más</a>
+
+            </div>
+
+        </article>
+
+        <article class="noticia">
+
+            <img src="imagenes/noticia3.jpg" alt="Noticia">
+
+            <div class="contenido-noticia">
+
+                <span class="fecha">5 de enero de 2026</span>
+
+                <h3>Título de la noticia</h3>
+
+                <p>
+                    Escriba aquí un breve resumen de la noticia.
+                </p>
+
+                <a href="#">Leer más</a>
+
+            </div>
+
+        </article>
+
+        <article class="noticia">
+
+            <img src="imagenes/noticia4.jpg" alt="Noticia">
+
+            <div class="contenido-noticia">
+
+                <span class="fecha">28 de diciembre de 2025</span>
+
+                <h3>Título de la noticia</h3>
+
+                <p>
+                    Escriba aquí un breve resumen de la noticia.
+                </p>
+
+                <a href="#">Leer más</a>
+
+            </div>
+
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
+
+</footer>
 
 </body>
 </html>

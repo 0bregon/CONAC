@@ -1,56 +1,230 @@
-<html lang="es">    
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONAC</title>
+    <title>Luchas y Campañas | CONAC</title>
+
     <link href="estilos.css" rel="stylesheet">
     <script src="js/menu.js" defer></script>
 </head>
 
 <body>
-    <header class="header">
-        <!-- Barra de navegación (se vuelve sticky al hacer scroll) -->
-        <nav class="navbar" aria-label="Menú principal">
-            <h1 class="logo-container">
-                <a href="index.html">
-                    <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
-                </a>
-            </h1>
 
-            <button class="menu-toggle" 
-                    aria-label="Abrir menú" 
-                    aria-expanded="false" 
-                    aria-controls="menu-list">
-                <span class="icon-open">☰</span>
-                <span class="icon-close">✕</span>
-                <span class="menu-text">Menú</span>
-            </button>
+<header class="header">
 
-            <ul class="menu-list" id="menu-list" role="menu">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="CONAC.html">Sobre CONAC</a></li>
-                <li><a href="asentamientos.html">Organización Territorial</a></li>
-                <li><a href="luchas.html">Luchas y Campañas</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- Barra de navegación -->
+    <nav class="navbar" aria-label="Menú principal">
 
-        <!-- Overlay oscuro para móvil -->
-        <div class="menu-overlay" aria-hidden="true"></div>
+        <h1 class="logo-container">
+            <a href="index.html">
+                <img src="imagenes/CONAC_LOGO.svg" alt="Logo de CONAC" class="logo">
+            </a>
+        </h1>
 
-        <!-- Hero -->
-        <div class="hero">
-            <h1>Luchas y campañass</h1>
-            <p>Confederación Nacional de Asentamientos Campesinos(AQUÍ VA EL SLOGAN).</p>
-            <a href="conac.html">Conocer más</a>
+        <button class="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="menu-list">
+
+            <span class="icon-open">☰</span>
+            <span class="icon-close">✕</span>
+            <span class="menu-text">Menú</span>
+
+        </button>
+
+        <ul class="menu-list" id="menu-list">
+
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="CONAC.html">Sobre CONAC</a></li>
+            <li><a href="asentamientos.html">Organización Territorial</a></li>
+            <li><a href="luchas.html" class="active">Luchas y Campañas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="menu-overlay"></div>
+
+    <!-- Hero -->
+
+    <div class="hero">
+
+        <h1>Luchas y Campañas</h1>
+
+        <p>
+            Conozca las principales acciones, gestiones y campañas
+            desarrolladas por la CONAC en defensa de los derechos
+            y el desarrollo de los asentamientos campesinos.
+        </p>
+
+    </div>
+
+</header>
+
+<main>
+
+    <!-- Introducción -->
+
+    <section class="introduccion">
+
+        <h2>Compromiso con el Sector Campesino</h2>
+
+        <p>
+            A lo largo de su trayectoria, la CONAC ha promovido diversas
+            iniciativas orientadas al fortalecimiento de las comunidades
+            campesinas, impulsando proyectos, capacitaciones y gestiones
+            que contribuyen al desarrollo rural de Panamá.
+        </p>
+
+    </section>
+
+    <!-- Campañas -->
+
+    <section class="campanias">
+
+        <h2>Campañas e Iniciativas</h2>
+
+        <div class="contenedor-campanias">
+
+            <article class="campania">
+
+                <img src="imagenes/campania1.jpg" alt="Campaña">
+
+                <h3>Nombre de la Campaña</h3>
+
+                <p>
+                    Breve descripción de la campaña o actividad desarrollada
+                    por la organización.
+                </p>
+
+            </article>
+
+            <article class="campania">
+
+                <img src="imagenes/campania2.jpg" alt="Campaña">
+
+                <h3>Nombre de la Campaña</h3>
+
+                <p>
+                    Breve descripción de la campaña o actividad desarrollada
+                    por la organización.
+                </p>
+
+            </article>
+
+            <article class="campania">
+
+                <img src="imagenes/campania3.jpg" alt="Campaña">
+
+                <h3>Nombre de la Campaña</h3>
+
+                <p>
+                    Breve descripción de la campaña o actividad desarrollada
+                    por la organización.
+                </p>
+
+            </article>
+
         </div>
-    </header>
 
-    <footer>
-        <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
-    </footer>
+    </section>
+
+    <!-- Línea de tiempo -->
+
+    <section class="timeline">
+
+        <h2>Principales Luchas</h2>
+
+        <div class="evento">
+
+            <h3>Año</h3>
+
+            <p>
+                Descripción del acontecimiento o gestión realizada.
+            </p>
+
+        </div>
+
+        <div class="evento">
+
+            <h3>Año</h3>
+
+            <p>
+                Descripción del acontecimiento o gestión realizada.
+            </p>
+
+        </div>
+
+        <div class="evento">
+
+            <h3>Año</h3>
+
+            <p>
+                Descripción del acontecimiento o gestión realizada.
+            </p>
+
+        </div>
+
+        <div class="evento">
+
+            <h3>Año</h3>
+
+            <p>
+                Descripción del acontecimiento o gestión realizada.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Áreas de Trabajo -->
+
+    <section class="areas">
+
+        <h2>Áreas de Trabajo</h2>
+
+        <ul>
+
+            <li>Representación del sector campesino.</li>
+
+            <li>Gestión de proyectos de desarrollo rural.</li>
+
+            <li>Fortalecimiento organizacional.</li>
+
+            <li>Capacitación y formación comunitaria.</li>
+
+            <li>Promoción de la producción agropecuaria.</li>
+
+            <li>Trabajo conjunto con instituciones públicas y privadas.</li>
+
+        </ul>
+
+    </section>
+
+    <!-- Frase -->
+
+    <section class="mensaje">
+
+        <blockquote>
+
+            "La organización comunitaria y el trabajo colectivo son pilares
+            fundamentales para el desarrollo sostenible del campo panameño."
+
+        </blockquote>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 CONAC | Todos los derechos reservados.</p>
+
+</footer>
 
 </body>
 </html>
