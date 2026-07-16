@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f5f5f0;
-    color: #333;
+    background-color: #F4F6F3;
+    color: #2F3A2F;
     line-height: 1.6;
 }
 
@@ -31,7 +31,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1001;
-    background-color: rgba(27, 67, 50, 0.95); 
+    background-color: #1B5E20; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
@@ -51,13 +51,13 @@ header {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: #ffffff;
+    background: #FFFFFF;
     border: none;
     padding: 10px 18px;
     cursor: pointer;
     border-radius: 5px;
     z-index: 1002;
-    color: #1b4332;
+    color: #1B5E20;
     font-weight: bold;
     font-size: 16px;
 }
@@ -75,7 +75,7 @@ header {
 }
 
 .menu-toggle.active {
-    background: #69a84e;
+    background: #2E7D32;
     color: white;
 }
 
@@ -90,9 +90,9 @@ header {
     left: 0;
     height: 100vh;
     width: 280px;
-    background: #ffffff;
+    background: #FFFFFF;
     padding: 100px 20px 20px;
-    border-right: 3px solid #69a84e;
+    border-right: 3px solid #1B5E20;
     box-shadow: 4px 0 10px rgba(0,0,0,0.1);
     transform: translateX(-100%);
     z-index: 1000;
@@ -124,19 +124,19 @@ header {
     display: block;
     padding: 14px 18px;
     text-decoration: none;
-    color: #333;
+    color: #2F3A2F;
     border-radius: 5px;
     font-weight: 500;
 }
 
 .menu-list a:hover {
-    background: #f0f7ec;
-    color: #4f772d;
+    background: #E8F5E9;
+    color: #1B5E20;
 }
 
 .menu-list a.active {
-    background: #e9edc9;
-    color: #4f772d;
+    background: #C8E6C9;
+    color: #0F3D1E;
     font-weight: bold;
 }
 
@@ -178,7 +178,7 @@ header {
     .menu-list a.active {
         background: rgba(255,255,255,0.3);
         color: white;
-        border-bottom: 3px solid #a7c957;
+        border-bottom: 3px solid #81C784;
     }
 }
 
@@ -221,9 +221,9 @@ section {
 }
 
 section h2 {
-    color: #4f772d;
+    color: #1B5E20;
     margin-bottom: 20px;
-    border-bottom: 2px solid #e9edc9;
+    border-bottom: 2px solid #C8E6C9;
     padding-bottom: 10px;
 }
 
@@ -236,7 +236,7 @@ section h2 {
 }
 
 .contenedor-regiones article {
-    background-color: #f8f7f2;
+    background-color: #F8F7F2;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 25px;
@@ -246,7 +246,7 @@ section h2 {
 }
 
 .contenedor-regiones h3 {
-    color: #1b4332;
+    color: #1B5E20;
     margin-bottom: 10px;
     font-size: 1.2rem;
 }
@@ -254,13 +254,13 @@ section h2 {
 .contenedor-regiones p {
     margin-bottom: 20px;
     font-size: 0.95rem;
-    color: #555;
+    color: #4A4A4A;
 }
 
 .contenedor-regiones a {
     display: inline-block;
     text-align: center;
-    background-color: #4f772d;
+    background-color: #1B5E20;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
@@ -270,7 +270,7 @@ section h2 {
 }
 
 .contenedor-regiones a:hover {
-    background-color: #3b5a20;
+    background-color: #0F3D1E;
 }
 
 /* ESTADÍSTICAS */
@@ -286,21 +286,21 @@ section h2 {
 .stats div {
     flex: 1;
     min-width: 150px;
-    background: #f0f7ec;
+    background: #E8F5E9;
     padding: 20px;
     border-radius: 8px;
-    border: 1px solid #dceebb;
+    border: 1px solid #C8E6C9;
 }
 
 .stats h3 {
-    color: #4f772d;
+    color: #1B5E20;
     font-size: 2.5rem;
     margin-bottom: 5px;
 }
 
 .stats p {
     font-weight: bold;
-    color: #333;
+    color: #2F3A2F;
     margin: 0;
 }
 
@@ -332,7 +332,7 @@ section h2 {
     padding: 15px;
     font-weight: 600;
     text-align: center;
-    color: #1b4332;
+    color: #1B5E20;
 }
 
 /* FORMULARIOS (Recuperados y optimizados) */
@@ -347,7 +347,7 @@ label {
     margin-top: 15px;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #1b4332;
+    color: #1B5E20;
 }
 
 input, textarea {
@@ -359,13 +359,13 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    outline: 2px solid #69a84e;
-    border-color: #69a84e;
+    outline: 2px solid #2E7D32;
+    border-color: #2E7D32;
 }
 
 button {
     margin-top: 25px;
-    background-color: #4f772d;
+    background-color: #1B5E20;
     color: white;
     border: none;
     padding: 14px;
@@ -376,7 +376,7 @@ button {
 }
 
 button:hover {
-    background-color: #3b5a20;
+    background-color: #0F3D1E;
 }
 
 /* LISTAS GENERALES */
@@ -390,7 +390,7 @@ li {
 
 /* FOOTER */
 footer {
-    background-color: #1b4332;
+    background-color: #1B5E20;
     color: white;
     text-align: center;
     padding: 25px;
@@ -418,4 +418,100 @@ footer {
     .stats div {
         min-width: 100%;
     }
+}
+
+/* CLASE BOTÓN PARA ENLACES */
+.boton {
+    display: inline-block;
+    background-color: #1B5E20;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    align-self: center; /* Centrado en móvil */
+}
+
+.boton:hover {
+    background-color: #0F3D1E;
+}
+
+/* En escritorio (≥ 768px), pegado al margen izquierdo */
+@media (min-width: 768px) {
+    .boton {
+        align-self: flex-start;
+    }
+}
+
+/* IMAGEN CUADRADA CONTROLADA DENTRO DE RECUADROS */
+.img-info {
+    width: 100%;
+    max-width: 350px; /* Tamaño máximo para que no sea enorme */
+    aspect-ratio: 1 / 1; /* Siempre cuadrada */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px auto; /* La centra y deja espacio abajo */
+    border-radius: 8px;
+}
+
+/* SECCIÓN DE NOTICIAS (estilo tipo galería) */
+.noticias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.noticias-grid .noticia {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    background: white;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticias-grid .noticia img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.noticias-grid .noticia figcaption {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.noticias-grid .noticia .fecha {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.noticias-grid .noticia h3 {
+    color: #1B5E20;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.noticias-grid .noticia p {
+    font-size: 0.95rem;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.noticias-grid .noticia .boton {
+    margin-top: auto;
+    align-self: flex-start;
 }
