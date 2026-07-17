@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="msvalidate.01" content="FD7ED96AEB77EFF4B6591F42D17DC3A4" />
     <title>CONAC</title>
-    <link rel="icon" type="image/svg+xml" href="imagenes/CONAC_LOGO.svg">
     <link href="estilos.css" rel="stylesheet">
     <script src="js/menu.js" defer></script>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
 </head>
 <body>
 
@@ -132,6 +132,15 @@
             </a>
         </div>
     </footer>
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(() => console.log('Service Worker registrado'))
+                .catch((error) => console.log('Error al registrar Service Worker:', error));
+        });
+    }
+</script>
 
 </body>
 </html>
