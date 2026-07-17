@@ -1,0 +1,22 @@
+{
+  "name": "CONAC - Confederación Nacional de Asentamientos Campesinos",
+  "short_name": "CONAC",
+  "description": "Sitio oficial de la Confederación Nacional de Asentamientos Campesinos de Panamá",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5f5f0",
+  "theme_color": "#1b4332",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "imagenes/icono-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "imagenes/icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
