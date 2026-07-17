@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.conacpanama.app",
+        "sha256_cert_fingerprints": ["3B:CA:67:0E:DB:7D:8D:DA:84:86:71:5C:A6:00:7A:6C:E1:98:9B:3F:59:C1:CF:46:15:C5:70:06:90:B1:A7:AC"]
+      }
+    }]
